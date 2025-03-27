@@ -270,20 +270,9 @@ document.getElementById("lv6").onclick = function () {
   this.onclick = null;
   checkslov();
 };
-document.getElementById("lv7").onclick = function () {
-  lv7.style = "opacity:0";
-  slov += 1;
-  this.onclick = null;
-  checkslov();
-};
-document.getElementById("lv8").onclick = function () {
-  lv8.style = "opacity:0";
-  slov += 1;
-  this.onclick = null;
-  checkslov();
-};
+
 function checkslov() {
-  if (slov == 8) {
+  if (slov == 6) {
     kolombaru.style = "position:relative;transform:scale(1)";
     fthilang();
     ftganti = 1;
